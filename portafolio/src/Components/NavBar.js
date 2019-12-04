@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { Link } from 'react-router-dom';
 
 import logo from "../static/img/spooky.svg"
 
@@ -20,9 +21,9 @@ export default class NavBar extends Component {
             Mi portafolio
           </Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Link className="nav-link"  to="/">Home</Link>
+            <Link className="nav-link"  to="/projects">Projects</Link>
+            <Link className="nav-link"  to="/contact">Contact</Link>
           </Nav>
         </Navbar>
       </div>
