@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom'
 
 import img1 from "../static/img/images/Group2.svg";
 export default class NavBar extends Component {
@@ -32,19 +33,13 @@ export default class NavBar extends Component {
             </button>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#header-section">Inicio<span class="sr-only">(current)</span></a>
+              <Link to="/" className="nav-link">home</Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#features-section">Menu</a>
+          <Link to="/projects" className="nav-link">Projects</Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#digital-marketing-section">Sucursales</a>  
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#feedback-section">Opiniones</a>
-          </li>
-          <li class="nav-item btn-contact-us pl-4 pl-lg-0">
-            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Pedidos</button>
+            <Link to="/contact" className="nav-link">Contact</Link>
           </li>
           </ul>
           </div>
