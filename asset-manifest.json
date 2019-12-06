@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/ModeloPortafolio/static/css/main.b100e6da.chunk.css",
-    "main.js": "/ModeloPortafolio/static/js/main.0d80d916.chunk.js",
-    "main.js.map": "/ModeloPortafolio/static/js/main.0d80d916.chunk.js.map",
+    "main.css": "/ModeloPortafolio/static/css/main.4c935134.chunk.css",
+    "main.js": "/ModeloPortafolio/static/js/main.935295a1.chunk.js",
+    "main.js.map": "/ModeloPortafolio/static/js/main.935295a1.chunk.js.map",
     "runtime-main.js": "/ModeloPortafolio/static/js/runtime-main.cb781d35.js",
     "runtime-main.js.map": "/ModeloPortafolio/static/js/runtime-main.cb781d35.js.map",
-    "static/js/2.16939ead.chunk.js": "/ModeloPortafolio/static/js/2.16939ead.chunk.js",
-    "static/js/2.16939ead.chunk.js.map": "/ModeloPortafolio/static/js/2.16939ead.chunk.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/ModeloPortafolio/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.a330aa75.chunk.js": "/ModeloPortafolio/static/js/2.a330aa75.chunk.js",
+    "static/js/2.a330aa75.chunk.js.map": "/ModeloPortafolio/static/js/2.a330aa75.chunk.js.map",
     "index.html": "/ModeloPortafolio/index.html",
-    "precache-manifest.72bce6f0887161b884eee2ee58d1f733.js": "/ModeloPortafolio/precache-manifest.72bce6f0887161b884eee2ee58d1f733.js",
+    "precache-manifest.db1e0bc8d47d3b355c64fa43a4dd3a8d.js": "/ModeloPortafolio/precache-manifest.db1e0bc8d47d3b355c64fa43a4dd3a8d.js",
     "service-worker.js": "/ModeloPortafolio/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/ModeloPortafolio/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/ModeloPortafolio/static/media/logo.25bf045c.svg"
+    "static/css/2.17e5ed98.chunk.css.map": "/ModeloPortafolio/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.4c935134.chunk.css.map": "/ModeloPortafolio/static/css/main.4c935134.chunk.css.map",
+    "static/media/Group12.svg": "/ModeloPortafolio/static/media/Group12.1137746b.svg",
+    "static/media/Group171.svg": "/ModeloPortafolio/static/media/Group171.f0691485.svg",
+    "static/media/Group2.svg": "/ModeloPortafolio/static/media/Group2.e57c00cc.svg",
+    "static/media/Group95.svg": "/ModeloPortafolio/static/media/Group95.c6f04766.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cb781d35.js",
-    "static/js/2.16939ead.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.0d80d916.chunk.js"
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.a330aa75.chunk.js",
+    "static/css/main.4c935134.chunk.css",
+    "static/js/main.935295a1.chunk.js"
   ]
 }
