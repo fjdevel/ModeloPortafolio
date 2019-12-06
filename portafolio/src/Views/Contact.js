@@ -6,9 +6,10 @@ export default class Contact extends Component {
       <div className="container mt-5">
         <div className="row justify-content-center">
           <div className="col-md-4">
-            <form>
+              <h1>Contact Us!</h1>
+            <form className="mt-3">
               <div class="form-group">
-                <label for="formGroupExampleInput">Example label</label>
+                <label for="formGroupExampleInput">Your Name</label>
                 <input
                   type="text"
                   class="form-control"
@@ -17,14 +18,24 @@ export default class Contact extends Component {
                 />
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2">Another label</label>
+                <label for="formGroupExampleInput2">Your Email</label>
                 <input
-                  type="text"
+                  type="email"
                   class="form-control"
                   id="formGroupExampleInput2"
-                  placeholder="Another input"
+                  placeholder="example@mail.com"
                 />
               </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Your Message</label>
+                <textarea
+                  class="form-control"
+                  id="formGroupExampleInput2"
+                  placeholder="Message"
+                  rows="5"
+                />
+              </div>
+              <button className="btn btn-primary">Send!</button>
             </form>
           </div>
         </div>
